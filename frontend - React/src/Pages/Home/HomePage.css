@@ -1,0 +1,9 @@
+.homepage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-container img{
+    width: 628px;
+    
+}

@@ -1,0 +1,23 @@
+.aboutpage-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+.aboutpage-text{
+    font-family: var(--primary-font);
+    width: 400px;
+    margin-top: 117px;
+}
+.aboutpage-title{
+    color: var(--color-black);
+    font-size: var(--font-size-3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; 
+    text-transform: uppercase;
+}
+.aboutpage-para{
+    color: var(--color-grey);
+    margin-top: 26px;
+}

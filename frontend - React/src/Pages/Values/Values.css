@@ -1,0 +1,33 @@
+.valuespage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.valuespage-text{
+    font-family: var(--primary-font);
+    width: 627px;
+    margin-top: 40px;
+}
+.valuespage-text-title{
+    color: var(--color-black);
+    font-size: var(--font-size-3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+.valuespage-text-para{
+    color: var(--color-grey);
+    font-size: var(--font-size-4);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.valuespgae-conclusion{
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-4);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+    color: var(--color-grey);
+}

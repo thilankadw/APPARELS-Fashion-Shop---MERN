@@ -1,0 +1,33 @@
+/*-----Abel Font-----*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*-----Roboto Font-----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  /*-----fonts-----*/
+  --primary-font: 'Abel', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+
+  /*-----colors-----*/
+  --color-grey: #494949;
+  --color-grey-2: #676767;
+  --color-grey-3: #E3E3E3;
+  --color-grey-4: #4F4F4F;
+  --color-grey-5: #f3f3f3;
+  --color-grey-6: #E2E2E2;
+  --color-grey-7: #f0eeee;
+  --color-grey-8: #f7f7f7;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-red-1: #d40b11;
+
+  /*-----font sizes-----*/
+  --font-size-1: 12px;
+  --font-size-2: 14px;
+  --font-size-3: 18px;
+  --font-size-4: 16px;
+  --font-size-5: 20px;
+  --font-size-6: 24px;
+  
+
+}

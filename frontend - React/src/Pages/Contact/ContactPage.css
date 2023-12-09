@@ -1,0 +1,70 @@
+.contactpage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactform{
+    width: 500px;
+    font-family: var(--primary-font);
+    margin-top: 57px;
+}
+.contactform-title{
+    color: var(--color-black);
+    font-size: var(--font-size-3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 66.667% */
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+.contactform ::placeholder{
+    font-family: var(--primary-font);
+    font-size: var(--font-size-2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+.contactform form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contactform-personaldetails{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+}
+.contactform form input{
+    width: 100%;
+    padding: 15px;
+    font-family: var(--primary-font);
+    border: 1px solid var(--color-black);
+    outline: none;
+    color: var(--color-grey-2);
+    font-size: 13px;
+}
+.contactform form input[type="submit"]{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: var(--font-size-1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px; /* 83.333% */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.contactform-contactnumber{
+    width: 469px;
+}
+.contactform-message textarea{
+    resize: none;
+    width: 469px;
+    height: 126px;
+    padding: 15px;
+    font-size: var(--font-size-2);
+    border: 1px solid var(--color-black);
+    outline: none;
+    color: var(--color-grey-2);
+}

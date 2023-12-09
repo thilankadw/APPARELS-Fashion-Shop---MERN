@@ -1,0 +1,14 @@
+.login-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.display-section-btn{
+    margin-top: 20px;
+    font-family: var(--primary-font);
+    background-color: var(--color-white);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
